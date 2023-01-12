@@ -329,12 +329,12 @@ body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: rgba(51, 51, 51, 0.2);
+  color: #726859;
 }
 
 #headerWrapper {
-  background-color: #abc;
-  color: #001adb;
+  background-color: #8cc1b5;
+  color: #8a4550;
 }
 
 header {
@@ -347,10 +347,11 @@ header h1 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 500;
+  color: white;
 }
 
 #navWrapper {
-  background-color: bisque;
+  background-color: #8a4550;
 }
 
 nav ul {
@@ -363,7 +364,7 @@ nav ul li {
   flex: 1;
 }
 nav li.active {
-  background-color: red;
+  background-color: #8cc1b5;
 }
 nav a {
   display: block;
@@ -373,11 +374,11 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  color: #123;
+  color: #8cc1b5;
 }
 
 #footerWrapper {
-  background-color: bisque;
+  background-color: #8a4550;
 }
 
 footer {
@@ -386,6 +387,8 @@ footer {
 footer p {
   margin: 0;
   font-weight: 300;
+  text-align: center;
+  color: white;
 }
 
 @media only screen and (min-width: 35rem) {

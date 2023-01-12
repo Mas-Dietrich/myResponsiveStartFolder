@@ -21,7 +21,7 @@ body {
 }
 
 #headerWrapper {
-  background-color: #abc;
+  background-color: $primaryColor;
   color: $secondaryColor;
 }
 
@@ -34,11 +34,12 @@ header {
     margin: 0;
     font-size: 1.2rem;
     font-weight: $mediumWeight;
+    color: white;
   }
 }
 
 #navWrapper {
-  background-color: bisque;
+  background-color: $secondaryColor;
 }
 
 nav {
@@ -54,7 +55,7 @@ nav {
   }
 
   li.active {
-    background-color: red;
+    background-color: $primaryColor;
   }
   a {
     display: block;
@@ -64,19 +65,21 @@ nav {
     text-decoration: none;
 
     &:hover {
-      color: #123;
+      color: $primaryColor;
     }
   }
 }
 
 //footer
 #footerWrapper {
-    background-color: bisque;
+    background-color: $secondaryColor;
 }
 footer {
     padding: 0.5rem $gutter;
     p{
         margin: 0;
         font-weight: $lightWeight;
+        text-align: center;
+        color: white;
     }
 }
