@@ -347,7 +347,7 @@ header h1 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 500;
-  color: #C18C98;
+  color: #221D1B;
 }
 
 #navWrapper {
@@ -367,7 +367,7 @@ nav li.active {
   background-color: #8cc1b5;
 }
 nav li.active a {
-  color: #C18C98;
+  color: #221D1B;
 }
 nav a {
   display: block;
