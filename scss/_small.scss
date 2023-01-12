@@ -34,7 +34,7 @@ header {
     margin: 0;
     font-size: 1.2rem;
     font-weight: $mediumWeight;
-    color: #221D1B;
+    color: $fontColor;
   }
 }
 
@@ -57,7 +57,7 @@ nav {
   li.active {
     background-color: $primaryColor;
     a {
-        color: #221D1B;
+        color: $fontColor;
     }
   }
   a {
