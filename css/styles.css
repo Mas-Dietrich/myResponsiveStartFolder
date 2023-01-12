@@ -347,7 +347,7 @@ header h1 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 500;
-  color: #f4e9ec;
+  color: white;
 }
 
 #navWrapper {
@@ -365,11 +365,12 @@ nav ul li {
 }
 nav li.active {
   background-color: #8cc1b5;
+  color: #8a4550;
 }
 nav a {
   display: block;
   padding: 0.75rem;
-  color: #f4e9ec;
+  color: white;
   text-align: center;
   text-decoration: none;
 }
@@ -388,7 +389,7 @@ footer p {
   margin: 0;
   font-weight: 300;
   text-align: center;
-  color: #f4e9ec;
+  color: white;
 }
 
 @media only screen and (min-width: 35rem) {

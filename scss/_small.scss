@@ -34,7 +34,7 @@ header {
     margin: 0;
     font-size: 1.2rem;
     font-weight: $mediumWeight;
-    color: #f4e9ec;
+    color: white;
   }
 }
 
@@ -56,11 +56,12 @@ nav {
 
   li.active {
     background-color: $primaryColor;
+    color: $secondaryColor;
   }
   a {
     display: block;
     padding: 0.75rem;
-    color: #f4e9ec;
+    color: white;
     text-align: center;
     text-decoration: none;
 
@@ -80,6 +81,6 @@ footer {
         margin: 0;
         font-weight: $lightWeight;
         text-align: center;
-        color: #f4e9ec;
+        color: white;
     }
 }
