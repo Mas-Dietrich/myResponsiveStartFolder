@@ -56,7 +56,9 @@ nav {
 
   li.active {
     background-color: $primaryColor;
-    color: $secondaryColor;
+    a {
+        color: $secondaryColor;
+    }
   }
   a {
     display: block;

@@ -365,6 +365,8 @@ nav ul li {
 }
 nav li.active {
   background-color: #8cc1b5;
+}
+nav li.active a {
   color: #8a4550;
 }
 nav a {
